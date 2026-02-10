@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "Introduction to MERN.",
+  "main": "backend/src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreekar-reddy-sg/Intro-to-backend.git"
+  },
+  "author": "Shreekar Reddy S G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreekar-reddy-sg/Intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/shreekar-reddy-sg/Intro-to-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.0",
+    "nodemon": "^3.1.11"
+  }
+}

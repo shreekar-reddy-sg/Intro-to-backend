@@ -1,0 +1,1 @@
+export const MONGODB_NAME=intro-to-backend
